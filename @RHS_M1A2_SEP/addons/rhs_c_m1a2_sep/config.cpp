@@ -50,7 +50,6 @@ class CfgVehicles
             class MainTurret: MainTurret
             {
                 turretInfoType = "RscOptics_MBT_01_gunner";
-                weapons[] = {"rhs_weap_m256_sep","rhs_weap_m240_abrams_coax_sep"};
                 discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600,3700,3800,3900,4000};
                 class OpticsIn
                 {
@@ -155,26 +154,68 @@ class CfgVehicles
     class rhsusf_m1a2sep1d_usarmy: rhsusf_m1a2tank_base
 	{
         displayName = "M1A2SEPv3";
+        class Turrets: Turrets
+        {
+            class MainTurret: MainTurret
+            {
+                weapons[] = {"rhs_weap_m256_sep","rhs_weap_m240_abrams_coax_sep"};
+            };
+        };
     };
     class rhsusf_m1a2sep1wd_usarmy: rhsusf_m1a2tank_base
 	{
         displayName = "M1A2SEPv3";
+        class Turrets: Turrets
+        {
+            class MainTurret: MainTurret
+            {
+                weapons[] = {"rhs_weap_m256_sep","rhs_weap_m240_abrams_coax_sep"};
+            };
+        };
     };
     class rhsusf_m1a2sep1tuskid_usarmy: rhsusf_m1a2tank_base
 	{
         displayName = "M1A2SEPv3 (TUSK I)";
+        class Turrets: Turrets
+        {
+            class MainTurret: MainTurret
+            {
+                weapons[] = {"rhs_weap_m256_sep","RHS_M2_Abrams_Gunner_sep","rhs_weap_m240_abrams_coax_sep"};
+            };
+        };
     };
     class rhsusf_m1a2sep1tuskiwd_usarmy: rhsusf_m1a2sep1tuskid_usarmy
 	{
         displayName = "M1A2SEPv3 (TUSK I)";
+        class Turrets: Turrets
+        {
+            class MainTurret: MainTurret
+            {
+                weapons[] = {"rhs_weap_m256_sep","RHS_M2_Abrams_Gunner_sep","rhs_weap_m240_abrams_coax_sep"};
+            };
+        };
     };
     class rhsusf_m1a2sep1tuskiiwd_usarmy: rhsusf_m1a2sep1tuskid_usarmy
 	{
         displayName = "M1A2SEPv3 (TUSK II)";
+        class Turrets: Turrets
+        {
+            class MainTurret: MainTurret
+            {
+                weapons[] = {"rhs_weap_m256_sep","RHS_M2_Abrams_Gunner_sep","rhs_weap_m240_abrams_coax_sep"};
+            };
+        };
     };
     class rhsusf_m1a2sep1tuskiid_usarmy: rhsusf_m1a2sep1tuskiiwd_usarmy
 	{
         displayName = "M1A2SEPv3 (TUSK II)";
+        class Turrets: Turrets
+        {
+            class MainTurret: MainTurret
+            {
+                weapons[] = {"rhs_weap_m256_sep","RHS_M2_Abrams_Gunner_sep","rhs_weap_m240_abrams_coax_sep"};
+            };
+        };
     };
     
 };
