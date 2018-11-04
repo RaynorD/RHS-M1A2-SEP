@@ -6,3 +6,5 @@ The changes so far:
 
 - Gunner and Commander optics have more information and better optics
 - Main gun has full FCS capabilities
+
+This is simply a config patch. It requires RHS USF to function.
