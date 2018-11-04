@@ -4,7 +4,7 @@ This small mod adds several minor improvements to the RHS M1A2, simulating featu
 
 The changes so far:
 
-- Gunner and Commander optics have more information and better optics
+- Gunner and Commander optics have more information and all vision modes for all magnification levels
 - Main gun has full FCS capabilities
 
 This is simply a config patch. It requires RHS USAF to function: http://www.rhsmods.org/mod/2
