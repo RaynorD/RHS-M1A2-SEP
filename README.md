@@ -8,3 +8,5 @@ The changes so far:
 - Main gun has full FCS capabilities
 
 This is simply a config patch. It requires RHS USAF to function: http://www.rhsmods.org/mod/2
+
+Uploading of this mod to the steam workshop by anyone other than Raynor_D is prohibited.
