@@ -146,6 +146,11 @@ class CfgVehicles
                             };
                         };
                     };
+                    class Loader: CommanderOptics
+                    {
+                        minTurn = -30;
+						maxTurn = 170;
+                    };
                 };
             };
         };
