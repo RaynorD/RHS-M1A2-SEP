@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class rhsusf_c_m1a2sep3d
+    class ray_rhs_m1a2sep3
     {
         units[] = {};
         weapons[] = {};
