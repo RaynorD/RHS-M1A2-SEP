@@ -6,9 +6,9 @@ class CfgPatches
         weapons[] = {};
         requiredVersion = 1.83;
         requiredAddons[] = {"rhsusf_main","A3_Armor_F_Slammer","rhsusf_c_m1a2"};
-        name = "RHS M1A2 SEPv3-D";
+        name = "RHS M1A2 SEPv3";
         author = "Raynor.D";
-        url = "https://github.com/RaynorD/rhs_c_m1a2_sep3";
+        url = "https://github.com/RaynorD/RHS-M1A2-SEP";
     };
 };
 
