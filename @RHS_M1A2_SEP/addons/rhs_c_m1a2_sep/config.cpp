@@ -12,6 +12,14 @@ class CfgPatches
     };
 };
 
+class Optics_Armored;
+class Optics_Commander_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
+
 class CfgVehicles
 {
     class LandVehicle;
@@ -123,6 +131,21 @@ class CfgVehicles
                     class CommanderOptics: CommanderOptics
                     {
                         turretInfoType = "RscOptics_MBT_01_commander";
+                        class OpticsIn: Optics_Commander_01
+                        {
+                            class Medium_TI: Medium
+                            {
+                                visionMode[] = {"Normal","NVG","TI"};
+                            };
+                            class Medium2_TI: Medium_TI
+                            {
+                                visionMode[] = {"Normal","NVG","TI"};
+                            };
+                            class Narrow_TI: Medium_TI
+                            {
+                                visionMode[] = {"Normal","NVG","TI"};
+                            };
+                        };
                     };
                 };
             };
