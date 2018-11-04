@@ -239,4 +239,10 @@ class CfgWeapons
         ballisticsComputer = "2 + 16";
         FCSMaxLeadSpeed = 30.5556; // copied from ACE_LMG_coax_MAG58_mem3
     };
+    class RHS_M2_Abrams_Gunner;
+    class RHS_M2_Abrams_Gunner_sep: RHS_M2_Abrams_Gunner
+    {
+        ballisticsComputer = "2 + 16";
+        FCSMaxLeadSpeed = 30.5556; // copied from ACE_LMG_coax_MAG58_mem3
+    };
 };
